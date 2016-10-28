@@ -33,4 +33,3 @@ z.assets.AssetObjectURLCache = do ->
     get_url: get_url
     set_url: set_url
   }
-
