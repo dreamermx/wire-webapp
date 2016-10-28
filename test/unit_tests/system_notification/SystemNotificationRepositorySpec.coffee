@@ -54,7 +54,7 @@ describe 'z.SystemNotification.SystemNotificationRepository', ->
 
       window.Notification =
         permission:
-          z.util.BrowserPermissionType.GRANTED
+          z.system_notification.PermissionStatusState.GRANTED
 
       document.hasFocus = ->
         false
