@@ -20,7 +20,7 @@ window.z ?= {}
 z.assets ?= {}
 
 # TODO use a more elaborated cache
-z.assets.AssetObjectURLCache = do ->
+z.assets.AssetURLCache = do ->
   url_cache = {}
 
   set_url = (identifier, url) ->
